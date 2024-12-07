@@ -1,0 +1,96 @@
+section.hero {
+  padding-block: 2.5rem;
+  padding-inline: 2rem;
+
+  & h1 {
+    max-width: 40rem;
+  }
+
+  & h1 div {
+    /* border: 2px solid lime; */
+    display: inline-block;
+    height: 5rem;
+    overflow: hidden;
+    width: min-content;
+
+    vertical-align:bottom;
+  }
+
+  & h1 span:nth-child(1), :nth-child(4){
+    color: var(--snitap-sky-mid);
+  }
+  & h1 span:nth-child(2){
+    color: var(--snitap-joy-mid);
+  }
+  & h1 span:nth-child(3){
+    color: var(--snitap-leaf-mid);
+  }
+
+  /* Creating animation for spans */
+
+  h1 span {
+    display: block;
+
+    animation: slideUp 6s infinite;
+  }
+
+}
+/* Creating animation for spans */
+
+@keyframes slideUp {
+  /* radical static */
+  0%, 20% {
+    transform: translateY(0);
+  }
+  /* divertida in */
+  22% {
+    transform: translateY(calc(-5rem - 15px));
+  }
+  24% {
+    transform: translateY(calc(-5rem + 10px));
+  }
+  26% {
+    transform: translateY(calc(-5rem - 5px));
+  }
+  28% {
+    transform: translateY(calc(-5rem + 5px));
+  }
+/* **************************** */
+  30%, 50% {
+    transform: translateY(-5rem);
+  }
+  /* saudavel in */
+  52% {
+    transform: translateY(calc(-10rem - 15px));
+  }
+  54% {
+    transform: translateY(calc(-10rem + 10px));
+  }
+  56% {
+    transform: translateY(calc(-10rem - 5px));
+  }
+  58% {
+    transform: translateY(calc(-10rem + 5px));
+  }
+/* **************************** */
+  60%, 80% {
+    transform: translateY(-10rem);
+  }
+  /* radical in  */
+  82% {
+    transform: translateY(calc(-15rem - 15px));
+  }
+  84% {
+    transform: translateY(calc(-15rem + 10px));
+  }
+  86% {
+    transform: translateY(calc(-15rem - 5px));
+  }
+  88% {
+    transform: translateY(calc(-15rem + 5px));
+  }
+/* **************************** */
+  100% {
+    transform: translateY(-15rem);
+  }
+}
