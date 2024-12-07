@@ -57,3 +57,9 @@
     border: solid 1px red;
   }
 }
+
+@media (width <= 22.5rem) {
+  .container {
+    max-width: 22.5rem;
+  }
+}
