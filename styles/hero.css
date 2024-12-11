@@ -124,6 +124,10 @@ section.hero {
     padding-block: 1rem;
     padding-inline: 1.5rem;
 
+    & span {
+      font-size: 2rem;
+    }
+
   }
 
   h1 div {
