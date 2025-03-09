@@ -7,7 +7,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin:auto; */
+
 
   & img {
     height: 2rem;

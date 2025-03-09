@@ -60,9 +60,9 @@
 
 @media (width <= 31.25rem) {
   :root {
-    /* .container {
+    .container {
       max-width: 22.5rem;
-    } */
+    }
   
     h1 {
       font-size: 2rem;

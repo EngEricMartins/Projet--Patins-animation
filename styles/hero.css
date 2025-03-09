@@ -172,6 +172,11 @@ section.hero {
     & span {
       font-size: 2rem;
     }
+    & .buttons {
+      flex-direction: column-reverse;
+      justify-content: center;
+      max-width: 17,75rem;
+    }
 
   }
 
