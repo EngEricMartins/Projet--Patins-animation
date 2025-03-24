@@ -48,10 +48,10 @@ nav {
 
 @media (width <= 31.25rem) {
   nav {
+    justify-content: space-between;
     padding-block: 0.75rem;
-    padding-inline: 1.5rem;
+    justify-content: space-between;
     
-    max-width: 22.5rem;
     
   }
 }

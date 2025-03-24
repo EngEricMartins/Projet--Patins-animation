@@ -61,7 +61,7 @@
 @media (width <= 31.25rem) {
   :root {
     .container {
-      max-width: 22.5rem;
+      max-width: 25.5rem;
     }
   
     h1 {
